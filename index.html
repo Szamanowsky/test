@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Szamanowsky</title>
+  </head>
+
+  <body>
+<div class="home">
+<!--About--->
+<button id="pokaz" onclick="pokaz()"><img src="ts.png"></button>
+<div id="kontent">
+  <div class="box">
+    <br>
+    <br>
+		<div class="skillbox">
+			<p>HTML</p>
+			<p>90%</p>
+			<div class="skill">
+				<div class="level" style="width: 90%; background: #2fc4b2;"></div>
+			</div>
+		</div>
+		<div class="skillbox">
+			<p>CSS</p>
+			<p>80%</p>
+			<div class="skill">
+				<div class="level" style="width: 80%; background: #d32626;"></div>
+			</div>
+		</div>
+		<div class="skillbox">
+			<p>JavaScript</p>
+			<p>20%</p>
+			<div class="skill">
+				<div class="level" style="width: 20%; background: #79d70f;"></div>
+			</div>
+		</div>
+		<div class="skillbox">
+			<p>Photoshop</p>
+			<p>75%</p>
+			<div class="skill">
+				<div class="level" style="width: 75%; background: #b5076b;"></div>
+			</div>
+		</div>
+		<div class="skillbox">
+			<p>Film Editor</p>
+			<p>70%</p>
+			<div class="skill">
+				<div class="level" style="width: 70%; background: #fed330;"></div>
+			</div>
+		</div>
+	</div>
+
+
+<button id="ukryj" onclick="ukryj()"><a style="color: red;" >X</a></button>
+</div>
+
+<!--About--->   
+<!--skills--->
+  <button id="show" onclick="show()"><img src="txt.png"></button>
+  <div id="content">
+  <button id="hide" onclick="hide()"><a style="color: red;" >X</a></button>
+</div>
+<!--skills--->
+</div>
+<div class="mbody">
+ <div class="card">
+        <div class="image">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimge.kugou.com%2Fstdmusic%2F20150718%2F20150718170411961983.jpg&f=1&nofb=1" alt="">
+        </div>
+        <div class="content">
+            <h1>WARRIOR</h1>
+            <p>Lana dey ray</p>
+            <div class="controlls">
+                <a href=""><i class="fa fa-backward" aria-hidden="true"></i>
+                </a>
+                <a href=""><i class="fa fa-pause" aria-hidden="true"></i>
+              </a>
+                <a href=""><i class="fa fa-forward" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+<div class="cbox">
+  <h1 style="color: #CC1313;"> function akcja(){ </h1>
+ <h1 style="color: #1BF7FF;"> let cena = 0</h1>
+ <h1 style="color: #1BF7FF;"> let numer = p1.value*1</h1>
+ <h1 style="color: #1BF7FF;">  let waga = p2.value*1</h1>
+ <h1 style="color: #690695;">  if (numer == 1)</h1>
+ <h1 style="color: #E0FA2E;">  {cena = cena+5*waga;</h1>
+ <h1 style="color: #690695;">  }else{</h1>
+ <h1 style="color: #690695;">  if (numer == 2)</h1>
+ <h1 style="color: #188B23;">wynik.value ="cena"+cena+" zł";</h1>
+ <h1 style="color: #1BF7FF;">}</h1>
+</div>
+
+<!--Solar system--->
+<div class="homepic"> 
+  <section id="home">
+    <div class="section-tope reveal">
+      <div class="solarbody">
+      <div class="spinner-box">
+        <div class="solar-system">
+          <div class="earth-orbit orbit">
+            <div class="planet earth"></div>
+              <div class="venus-orbit orbit">
+                <div class="planet venus"></div>
+                  <div class="mercury-orbit orbit">
+                     <div class="planet mercury"></div>
+                        <div class="sun"></div>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+ <!--Solar system--->
+ <div id="myDIV"></div>
+ <script>
+  function show() {
+  document.getElementById('content').style.height="500px"
+    document.getElementById('content').style.display="block"
+    document.getElementById('show').style.display="none"
+  }
+  function hide () {
+    document.getElementById('content').style.height="0px"
+    document.getElementById('content').style.display="none"
+    document.getElementById('show').style.display="inline"
+  }
+
+  function pokaz() {
+  document.getElementById('kontent').style.height="500px"
+    document.getElementById('kontent').style.display="block"
+    document.getElementById('pokaz').style.display="none"
+  }
+  function ukryj () {
+    document.getElementById('kontent').style.height="0px"
+    document.getElementById('kontent').style.display="none"
+    document.getElementById('pokaz').style.display="inline"
+  }
+</script>
+  </body>
+</html
